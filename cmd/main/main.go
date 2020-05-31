@@ -34,6 +34,7 @@ func Logger(req fasthttp.RequestHandler) fasthttp.RequestHandler {
 func main() {
 	r := router.New()
 
+	routes.DeviceRoutes(r)
 	routes.CheckerRoutes(r)
 
 	log.Fatal(fasthttp.ListenAndServe(":8080", Logger(r.Handler)))

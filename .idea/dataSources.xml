@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="go-find-me" uuid="1f1a9b56-847d-4fbb-ac4a-3917e480b772">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\jamie\Documents\GitHub\go-find-me\go-find-me.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
